@@ -1,0 +1,64 @@
+html, body {
+    margin: 10;
+    padding: 10;
+}
+
+body {
+    margin: 0;
+    background-image: url(dark_wood_@2X.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h2 {
+    color: #C5C9C3;
+}
+
+.grid,
+.start-btn {
+    border: solid rgba(255, 255, 255, .1) 2px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    background-image: url(grass.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px rgba(255, 255, 255, .2);
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+}
+
+.start-btn {
+    font-family: 'Chivo', sans-serif;
+    border-radius: 10px;
+    color: #404040;
+    font-weight: 900;
+    letter-spacing: 1;
+    padding: 0.3em 1em;
+    font-size: 1.5rem;
+    box-shadow: 10px 5px 5px rgba(255, 255, 255, .5);
+    background-image: url(../images/binding_light_@2X.png);
+}
+
+.snake {
+    background: radial-gradient(#fff, rgb(4, 94, 64));
+    box-shadow: 10px 5px 5px rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.apple {
+    background: radial-gradient(#fff, rgb(4, 86, 141));
+    border-radius: 40px;
+}
